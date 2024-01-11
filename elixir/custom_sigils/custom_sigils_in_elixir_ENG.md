@@ -1,12 +1,14 @@
 # Sigil Sorcery: Custom Sigils in Elixir
 
+![Custom Sigils in Elixir created by Dalle](<images/DALL·E 2024-01-09 08.12.02 - A mystical and enchanting image representing 'Sigil Sorcery_ Custom Sigils in Elixir and Phoenix', without a star in the background and emphasizing pu 2.png>)
+
 Elixir sigils are general-purpose tools for handling common data types. Examples of built-in sigils include strings `(~s)`, regular expressions `(~r)`, dates `(~D)`, and lists of words `(~w)`. But, as you might have guessed, Elixir's flexibility doesn't stop here; Elixir allows us to create custom sigils for specific needs, and that is what we’re doing now.
 
 ## Feeling creative? The process of creating your own sigils
 
 Conceptually, a sigil is a function that takes arguments like functions do. Sigil function names follow a specific syntax, as we can see below (cf. step 1). Unlike in other functions, we are not limited to the usual delimiters () around the function's parameters but have 8 different delimiters we can freely choose from (cf. step 2). Finally, the parameters of a sigil function comprise the input string and a list of modifiers (cf. step 3).
 
-### How to build It: A Step-by-Step Recipe
+### How to Build It: A Step-by-Step Recipe
 
 Step 1: Define a function named sigil_x (replace 'x' with your character). The sigil name should be either a one-letter lowercase letter or a sequence of uppercase letters.
 
