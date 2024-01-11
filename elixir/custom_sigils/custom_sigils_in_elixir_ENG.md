@@ -41,6 +41,7 @@ end
 ```
 
 Boom, you’ve got your personalized sigil!
+What we do here is take the input string, upcase it, and reverse it.
 
 ```bash
 import YourProject.SigilSorcery
@@ -52,7 +53,7 @@ iex(92)> ~UPREV(hello)
 #### Example 2 without a modifier
 
 ```elixir
-defmodule YourProject.PlanetarySigil do
+defmodule YourProject.EmojiSigil do
   @emoji_map %{
     "star" => "⭐",
     "sun" => "🌞",
@@ -73,13 +74,15 @@ defmodule YourProject.PlanetarySigil do
 end
 ```
 
+What we do here is take the input string, split it into a list of words, and replace each word with an emoji if it exists in our emoji map. If the word is not in our map, we return the word as is. Then, we return the list of emojis joined into a string.
+
 ```bash
 import YourProject.EmojiSigil
 
-iex(92)> ~EMO{hello star hello sun and moon}
-"hello ⭐ hello ☀️ and 🌙"
-iex(93)> ~EMO{star sun moon planet rocket}
+iex(92)> ~EMO{star sun moon planet rocket}
 "⭐ ☀️ 🌙 🪐 🚀"
+iex(93)> ~EMO{hello star hello sun and moon}
+"hello ⭐ hi ☀️ and see you 🌙"
 ```
 
 ### Examples of Custom Sigils with a modifier
@@ -95,6 +98,8 @@ defmodule YourProject.SigilCase do
   def sigil_STR(string, 'r'), do: String.reverse(string)
 end
 ```
+
+What we do here is create three function clauses, each of which takes a string and a modifier. If the modifier is 'u', we upcase the string. If the modifier is 'l', we downcase the string. If the modifier is 'r', we reverse the string.
 
 ```bash
 import YourProject.SigilCase
@@ -137,6 +142,8 @@ defmodule YourProject.ZooSigil do
 end
 ```
 
+What we do here is take the input string, split it into a list of words, and replace each word with an emoji if it exists in our emoji map. If the word is not in our map, we return the word as is. Then we return the emoji repeated n times, where n is the modifier passed to the sigil function. Finally, we join the list of emojis into a string.
+
 ```bash
 import YourProject.ZooSigil
 
@@ -146,4 +153,4 @@ iex(92)> ~~ZOO(cat dog bird)3
 
 ## Conclusion: Embrace the Sigil Sorcery
 
-Sigils are handy little tools; they’re a mix between optimisation of efficiency and a playground for creativity. So, whether you’re regexing, listifying, or just having fun, sigils are a worthy addition to your coding journey. Go ahead, wield these spells with a smile, and watch your Elixir code transform from ordinary to enchanting ☺️.
+Sigils are handy little tools; they’re a mix between optimisation of efficiency and a playground for creativity. So, whether you’re regexing, listifying, or just having fun building your own sigils, sigils are a worthy addition to your coding journey. Go ahead, wield these spells with a smile, and watch your Elixir code transform from ordinary to enchanting ☺️.
