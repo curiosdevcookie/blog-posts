@@ -149,10 +149,10 @@ What we do here is take the input string, split it into a list of words, and rep
 ```bash
 import YourProject.ZooSigil
 
-iex(92)> ~~ZOO(cat dog bird)3
+iex(92)> ~ZOO(cat dog bird)3
 "🐱🐱🐱 🐶🐶🐶 🐦🐦🐦"
 ```
 
 ## Conclusion: Embrace the Sigil Sorcery
 
-Sigils are handy little tools; they’re a mix between optimisation of efficiency and a playground for creativity. So, whether you’re regexing, listifying, or just having fun building your own sigils, sigils are a worthy addition to your coding journey. Go ahead, wield these spells with a smile, and watch your Elixir code transform from ordinary to enchanting ☺️.
+Sigils are handy little tools; they’re a mix between optimization of efficiency and a playground for creativity. So, whether you’re regexing, listifying, or just having fun building your own sigils, sigils are a worthy addition to your coding journey. Go ahead, wield these spells with a smile, and watch your Elixir code transform from ordinary to enchanting ☺️.
