@@ -2,6 +2,21 @@
 
 ![Custom Sigils in Elixir created by Dalle](<images/DALL·E 2024-01-09 08.12.02 - A mystical and enchanting image representing 'Sigil Sorcery_ Custom Sigils in Elixir and Phoenix', without a star in the background and emphasizing pu 2.png>)
 
+## Inhalt
+
+- [Einleitung: Die Magie von Sigils](#einleitung-die-magie-von-sigils)
+- [Lust auf Kreativität? Wie Ihr Eure eigenen Sigils bauen könnt](#lust-auf-kreativität-wie-ihr-eure-eigenen-sigils-bauen-könnt)
+  - [Wie man sich sich Schritt für Schritt ein Sigil baut](#wie-man-sich-sich-schritt-für-schritt-ein-sigil-baut)
+  - [Beispiele von Custom Sigils ohne Modifikator](#beispiele-von-custom-sigils-ohne-modifikator)
+    - [Beispiel 1 ohne Modifikator](#beispiel-1-ohne-modifikator)
+    - [Beispiel 2 ohne Modifikator](#beispiel-2-ohne-modifikator)
+  - [Beispiele von Custom Sigils mit Modifikator](#beispiele-von-custom-sigils-mit-modifikator)
+    - [Beispiel 1 mit Modifikator](#beispiel-1-mit-modifikator)
+    - [Beispiel 2 mit Modifikator](#beispiel-2-mit-modifikator)
+- [Wage es, Dich der Sigilmagie zu bedienen](#wage-es-dich-der-sigilmagie-zu-bedienen)
+
+## Einleitung: Die Magie von Sigils
+
 Elixir Sigils sind universelle Tools zur Handhabung gängiger Datentypen. Beispiele für built-in Sigils umfassen Strings `(~s)`, reguläre Ausdrücke `(~r)`, Datumsangaben `(~D)` und Wortlisten `(~w)`. Aber, wie du vielleicht vermutet hast, endet die Flexibilität von Elixir hier nicht — Elixir erlaubt es uns, unsere eigenen Sigils für unsere spezifischen Bedürfnisse zu bauen. Los geht's.
 
 ## Lust auf Kreativität? Wie Ihr Eure eigenen Sigils bauen könnt
@@ -153,6 +168,6 @@ iex(92)> ~ZOO(cat dog bird)3
 "🐱🐱🐱 🐶🐶🐶 🐦🐦🐦"
 ```
 
-## Conclusion: Embrace the Sigil Sorcery
+## Wage es, Dich der Sigilmagie zu bedienen
 
 Sigils sind praktische kleine Werkzeuge, sie sind eine Mischung aus Effizienzoptimierung und einem Spielplatz für Deine Kreativität. Egal, ob Du Dich an regulären Ausdrücken austobst, mit Listen hantierst oder generell einfach nur Spaß daran hast, Deine eigenen Sigils zu bauen … Sigils sind eine wertvolle Ergänzung Deiner Coding Journey. Also los, setze diese Magie mit einem Lächeln ein und kuck zu, wie dein Elixir-Code das Gewöhnliche hinter sich lässt und … zauberhaft wird ☺️.

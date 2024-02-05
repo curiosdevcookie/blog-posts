@@ -2,6 +2,20 @@
 
 ![Custom Sigils in Elixir created by Dalle](<images/DALL·E 2024-01-09 08.12.02 - A mystical and enchanting image representing 'Sigil Sorcery_ Custom Sigils in Elixir and Phoenix', without a star in the background and emphasizing pu 2.png>)
 
+## Table of Contents
+
+- [Introduction: The Magic of Sigils](#introduction-the-magic-of-sigils)
+- [Feeling creative? The process of creating your own sigils](#feeling-creative-the-process-of-creating-your-own-sigils)
+  - [How to Build It: A Step-by-Step Recipe](#how-to-build-it-a-step-by-step-recipe)
+  - [Examples of Custom Sigils without a modifier](#examples-of-custom-sigils-without-a-modifier)
+    - [Example 1 without a modifier](#example-1-without-a-modifier)
+    - [Example 2 without a modifier](#example-2-without-a-modifier)
+  - [Examples of Custom Sigils with a modifier](#examples-of-custom-sigils-with-a-modifier)
+    - [Example 1 with modifier](#example-1-with-modifier)
+    - [Example 2 with modifier](#example-2-with-modifier)
+
+## Introduction: The Magic of Sigils
+
 Elixir sigils are general-purpose tools for handling common data types. Examples of built-in sigils include strings `(~s)`, regular expressions `(~r)`, dates `(~D)`, and lists of words `(~w)`. But, as you might have guessed, Elixir's flexibility doesn't stop here; Elixir allows us to create custom sigils for specific needs, and that is what we’re doing now.
 
 ## Feeling creative? The process of creating your own sigils
@@ -155,4 +169,4 @@ iex(92)> ~ZOO(cat dog bird)3
 
 ## Conclusion: Embrace the Sigil Sorcery
 
-Sigils are handy little tools; they’re a mix between optimization of efficiency and a playground for creativity. So, whether you’re regexing, listifying, or just having fun building your own sigils, sigils are a worthy addition to your coding journey. Go ahead, wield these spells with a smile, and watch your Elixir code transform from ordinary to enchanting ☺️.
+Sigils are handy little tools; they’re a mix between optimization of efficiency and a playground for creativity. So, whether you’re regexing, listifying, or just having fun building your own sigils, sigils are a worthy addition to your coding journey. Go ahead, wield these spells with a smile, and watch your Elixir code transform from ordinary to enchanting 🧙🏼☺️.
