@@ -170,4 +170,6 @@ iex(92)> ~ZOO(cat dog bird)3
 
 ## Wage es, Dich der Sigilmagie zu bedienen
 
-Sigils sind praktische kleine Werkzeuge, sie sind eine Mischung aus Effizienzoptimierung und einem Spielplatz für Deine Kreativität. Egal, ob Du Dich an regulären Ausdrücken austobst, mit Listen hantierst oder generell einfach nur Spaß daran hast, Deine eigenen Sigils zu bauen … Sigils sind eine wertvolle Ergänzung Deiner Coding Journey. Also los, setze diese Magie mit einem Lächeln ein und kuck zu, wie dein Elixir-Code das Gewöhnliche hinter sich lässt und … zauberhaft wird ☺️.
+Sigils sind praktische kleine Werkzeuge, sie sind eine Mischung aus Effizienzoptimierung und einem Spielplatz für Deine Kreativität. Egal, ob Du Dich an regulären Ausdrücken austobst, mit Listen hantierst oder generell einfach nur Spaß daran hast, Deine eigenen Sigils zu bauen … Sigils sind eine wertvolle Ergänzung Deiner Coding Journey. Also los, setze diese Magie mit einem Lächeln ein und kuck zu, wie dein Elixir-Code das Gewöhnliche hinter sich lässt und … zauberhaft wird 🧙🏼☺️.
+
+### [top ⇧](#inhalt)

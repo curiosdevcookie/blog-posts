@@ -13,6 +13,7 @@
   - [Examples of Custom Sigils with a modifier](#examples-of-custom-sigils-with-a-modifier)
     - [Example 1 with modifier](#example-1-with-modifier)
     - [Example 2 with modifier](#example-2-with-modifier)
+- [Conclusion: Embrace the Sigil Sorcery](#conclusion-embrace-the-sigil-sorcery)
 
 ## Introduction: The Magic of Sigils
 
@@ -170,3 +171,5 @@ iex(92)> ~ZOO(cat dog bird)3
 ## Conclusion: Embrace the Sigil Sorcery
 
 Sigils are handy little tools; they’re a mix between optimization of efficiency and a playground for creativity. So, whether you’re regexing, listifying, or just having fun building your own sigils, sigils are a worthy addition to your coding journey. Go ahead, wield these spells with a smile, and watch your Elixir code transform from ordinary to enchanting 🧙🏼☺️.
+
+### [top ⇧](#table-of-contents)
